@@ -1,7 +1,7 @@
 import { defineMessages } from 'react-intl'
 
 const messages = defineMessages({
-  app_name: 'React Most Wanted',
+  app_name: 'Versabit Task',
   dashboard: 'Dashboard',
   about: 'Info',
   page_not_found_demo: 'Pagina non trovata demo',
