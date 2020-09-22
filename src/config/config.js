@@ -26,7 +26,6 @@ const config = {
         storageBucket: "versabit-task.appspot.com",
         messagingSenderId: "1052818173857",
         appId: "1:1052818173857:web:440eeb1dcd278331db25e0",
-        measurementId: "G-DQLJ37Z5KW"
   };
     },
     firebase_providers: [
