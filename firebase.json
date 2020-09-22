@@ -8,36 +8,15 @@
   },
   "hosting": {
     "public": "build",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
-        "source": "/api/users",
-        "function": "httpsApiUsersOnRequest"
-      },
-      {
-        "source": "/api/companies",
-        "function": "httpsApiCompaniesOnRequest"
-      },
-      {
         "source": "**",
-        "destination": "/index.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      }
-    ],
-    "headers": [
-      {
-        "source": "/service-worker.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
+        "destination": "/index.html"
       }
     ]
   },
